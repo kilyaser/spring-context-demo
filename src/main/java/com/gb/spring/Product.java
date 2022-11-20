@@ -1,9 +1,7 @@
 package com.gb.spring;
 
 
-import lombok.Generated;
 import lombok.Getter;
-
 import java.util.concurrent.atomic.AtomicInteger;
 
 @Getter

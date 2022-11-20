@@ -1,7 +1,6 @@
 package com.gb.spring;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
@@ -9,7 +8,6 @@ import java.util.List;
 import java.util.Optional;
 
 @Slf4j
-// @Component
 public class ProductRepositoryImpl implements ProductRepository<Product>{
 
     private final List<Product> products = new ArrayList<>();
